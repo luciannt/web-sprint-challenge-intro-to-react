@@ -1,4 +1,6 @@
 // Write your Character component here
+import React from "react";
+
 function Characters(props) {
   const { charObj } = props;
 
@@ -13,14 +15,16 @@ function Characters(props) {
 
         <p>Mass: {charObj.mass}</p>
 
-        <p>Birth Year: {charObj.birthYear}</p>
+        <p>Birth Year: {charObj.birth_year}</p>
 
-        <p>Eye Color: {charObj.eyeColor}</p>
+        <p>Eye Color: {charObj.eye_color}</p>
 
-        <p>Hair Color: {charObj.hairColor}</p>
+        <p>Hair Color: {charObj.hair_color}</p>
 
-        <p>Skin Color: {charObj.skinColor}</p>
+        <p>Skin Color: {charObj.skin_color}</p>
       </div>
     </div>
   );
 }
+
+export default Characters;
